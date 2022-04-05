@@ -1,0 +1,194 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    background-color: rgba(216, 187, 170, 0.7);
+    height: 30px;
+    border: 2px solid transparent;
+    padding: 40px;
+}
+.header h2{
+    margin-top: 30px;
+    font-size: 35px;
+    margin-left: 20px;
+}
+.header nav{
+    margin-left: 600px;
+    margin-top: -30px;
+}
+.header nav a{
+    text-decoration: none;
+    padding: 20px;
+    margin: 10px;
+    font-size: 20px;
+    color: black;
+}
+.header nav a:hover{
+    background-color: seashell;
+    border-radius: 15px;
+}
+.login{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    font-size: 100px;
+    font-style: oblique;
+}
+.main-body{
+    display: flex;
+    width: fit-content;
+    padding: 150px;
+    margin-left: -250px;
+}
+.account{
+    border: 2px solid transparent;
+    width: 600px;
+    margin-left: 140px;
+    height: 500px;
+    background-image: linear-gradient(maroon, white);
+}
+.account h1{
+    margin-left: 150px;
+    margin-top: 100px;
+    font-size: 30px;
+    margin-top: 140px;
+    color: white;
+}
+.account p{
+    margin-top: 25px;
+    margin-left: 89px;
+    color: white;
+}
+.account button{
+    margin-top: 30px;
+    width: 200px;
+    height: 50px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 17px;
+}
+.account button:hover{
+    background-color: white;
+    color: red;
+}
+.log{
+    width: 330px;
+    margin-left: 200px;
+}
+.log h3{
+    font-size: 30px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.inp{
+    width: 400px;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid grey;
+}
+.check{
+    margin-top: 20px;
+}
+.log button{
+    margin-top: 30px;
+    width: 400px;
+    height: 60px;
+    font-size: 20px;
+    background-color: transparent;
+    color: blue;
+    border-color: blue;
+    border-radius: 10px;
+}
+.footer{
+    background-color: rgba(30, 130, 76, 0.4);
+    padding-top: 70px;
+    margin-top: 20px;
+    height: 300px;
+}
+.tz{
+    width: 400px;
+    float: left;
+    margin-left: 200px;
+}
+.tz h3{
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+.tz p{
+    font-size: 18px;
+}
+.ql{
+    width: 200px;
+    float: left;
+
+}
+.ql ul li{
+    list-style: none;
+    padding: 8px;
+    font-size: 18px;
+}
+.ql h4{
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.np{
+    width: 200px;
+    float: left;
+
+}
+.np ul li{
+    list-style: none;
+    padding: 8px;
+    font-size: 18px;
+}
+.np h4{
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.support h4{
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.support{
+    width: 300px;
+    float: left;
+
+}
+.support ul li{
+    list-style: none;
+    padding: 8px;
+    font-size: 18px;
+}
+.cr{
+    width: 700px;
+    margin-left: 300px;
+}
+.cr a{
+    text-decoration: none;
+}
+
+.anchor{
+    text-decoration: none;
+    color: black;
+}
+.link{
+    color: grey;
+}
+.link:hover{
+    color: blue;
+}
+.copyright{
+    margin-top: 220px;
+    margin-left: 200px;
+    font-size: 20px;
+}
+.copyright a {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}

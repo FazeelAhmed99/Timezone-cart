@@ -1,0 +1,347 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    background-color: rgba(216, 187, 170, 0.7);
+    height: 30px;
+    border: 2px solid transparent;
+    padding: 40px;
+}
+.header h2{
+    margin-top: 30px;
+    font-size: 35px;
+    margin-left: 20px;
+}
+.header nav{
+    margin-left: 600px;
+    margin-top: -30px;
+}
+.header nav a{
+    text-decoration: none;
+    padding: 20px;
+    margin: 10px;
+    font-size: 20px;
+    color: black;
+}
+.header nav a:hover{
+    background-color: seashell;
+    border-radius: 15px;
+}
+.blog{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    font-size: 100px;
+    font-style: oblique;
+}
+.img-1{
+    width: fit-content;
+}
+.img-1 img{
+    width: 500px;
+    height: 300px;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+.search{
+    float: right;
+    margin-top: -400px;
+    margin-right: 130px;
+    border: 2px solid red;
+    width: 400px;
+    height: 170px;
+    text-align: center;
+}
+.search input{
+    border-radius: 2px solid white;
+    margin-top: 25px;
+    width: 300px;
+    height: 50px;
+}
+.btn{
+    background-color: red;
+    color: white;
+    font-size: large;
+    width: 300px;
+    height: 50px;
+    border-radius: 0px solid white;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+.img-1 h4{
+    margin-left: 230px;
+    margin-top: 30px;
+    font-size: 25px;
+}
+.img-1 a{
+    text-decoration: none;
+    color: black;
+}
+.img-1 p{
+    margin-top: 20px;
+    margin-left: 230px;
+    font-size: 17px;
+}
+.category{
+    border: 2px solid blue;
+    width: 400px;
+    height: 390px;
+    margin-left: 815px;
+    margin-top: -200px;
+}
+.category h5{
+    font-family: Verdana;
+    font-size: 17px;
+    padding: 20px;
+}
+.category h6{
+    padding: 15px;
+    font-size: 15px;
+    color: gray;
+}
+.category a{
+    text-decoration: none;
+}
+.category hr{
+    width: 350px;
+    margin-left: 20px;
+}
+.img-2{
+    width: fit-content;
+}
+.img-2 img{
+    width: 500px;
+    height: 300px;
+    margin-left: 200px;
+    margin-top: -50px;
+}
+.img-2 a{
+    text-decoration: none;
+    color: black;
+}
+.img-2 h4{
+    margin-left: 230px;
+    margin-top: 30px;
+    font-size: 25px;
+}
+.img-2 p{
+    margin-top: 20px;
+    margin-left: 230px;
+    font-size: 17px;
+}
+.img-3{
+    width: fit-content;
+}
+.img-3 img{
+    width: 500px;
+    height: 300px;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+.img-3 a{
+    text-decoration: none;
+    color: black;
+}
+.img-3 h4{
+    margin-left: 230px;
+    margin-top: 30px;
+    font-size: 25px;
+}
+.img-3 p{
+    margin-top: 20px;
+    margin-left: 230px;
+    font-size: 17px;
+}
+.img-4{
+    width: fit-content;
+}
+.img-4 img{
+    width: 500px;
+    height: 300px;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+.img-4 a{
+    text-decoration: none;
+    color: black;
+}
+.img-4 h4{
+    margin-left: 230px;
+    margin-top: 30px;
+    font-size: 25px;
+}
+.img-4 p{
+    margin-top: 20px;
+    margin-left: 230px;
+    font-size: 17px;
+}
+.recent{
+    border: 2px solid purple;
+    width: 400px;
+    height: 400px;
+    margin-left: 816px;
+    margin-top: -1450px;
+}
+.recent a{
+    text-decoration: none;
+    color: black;
+}
+.recent img{
+    padding: 10px;
+}
+.recent b{
+    display: flex;
+    margin-left: 100px;
+    margin-top: -60px;
+}
+.recent p{
+    margin-left: 100px;
+    margin-top: -10px;
+}
+.clouds{
+    border: 2px solid forestgreen;
+    padding: 15px;
+    width: 370px;
+    margin-top: 50px;
+    margin-left: 820px;
+}
+.clouds b{
+    padding: 19px;
+}
+.clouds button{
+    background-color: white;
+    border: 1px solid;
+    color: black;
+    width: 70px;
+    height: 30px;
+    margin: 10px;   
+}
+.clouds button:hover{
+    background-color: red;
+    cursor: pointer;
+}
+.news{
+    border: 2px solid red;
+    width: 380px;
+    margin-left: 820px;
+    margin-top: 40px;
+    padding: 10px;
+}
+.news h4{
+    font-size: 30px;
+    padding: 10px;
+}
+.news hr{
+    width: 360px;
+    margin-bottom: 30px;
+}
+.news input{
+    width: 257px;
+    height: 10px;
+    padding: 20px;
+}
+.news button{
+    margin-top: 10px;
+    background-color: red;
+    color: white;
+    width: 300px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.news button:hover{
+    background-color: white;
+    color: black;
+}
+.footer{
+    background-color: rgba(30, 130, 76, 0.4);
+    padding-top: 70px;
+    margin-top: 600px;
+    height: 300px;
+}
+.tz{
+    width: 400px;
+    float: left;
+    margin-left: 200px;
+}
+.tz h3{
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+.tz p{
+    font-size: 18px;
+}
+.ql{
+    width: 200px;
+    float: left;
+
+}
+.ql ul li{
+    list-style: none;
+    padding: 8px;
+    font-size: 18px;
+}
+.ql h4{
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.np{
+    width: 200px;
+    float: left;
+
+}
+.np ul li{
+    list-style: none;
+    padding: 8px;
+    font-size: 18px;
+}
+.np h4{
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.support h4{
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.support{
+    width: 300px;
+    float: left;
+
+}
+.support ul li{
+    list-style: none;
+    padding: 8px;
+    font-size: 18px;
+}
+.cr{
+    width: 700px;
+    margin-left: 300px;
+}
+.cr a{
+    text-decoration: none;
+}
+
+.anchor{
+    text-decoration: none;
+    color: black;
+}
+.link{
+    color: grey;
+}
+.link:hover{
+    color: blue;
+}
+.copyright{
+    margin-top: 220px;
+    margin-left: 200px;
+    font-size: 20px;
+}
+.copyright a {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
